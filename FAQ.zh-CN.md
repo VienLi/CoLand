@@ -51,6 +51,8 @@ CoLand Desktop 本机可接入 **OpenClaw、Codex、Claude Code 和 Hermes Agent
 | `status:needs-info` | 需要补充信息 |
 | `status:in-progress` | 正在处理 |
 
+公开的[反馈与排期看板](https://github.com/users/VienLi/projects/2)记录五个阶段：待确认、待补充、已排期、处理中、已关闭。**功能排期**视图汇总未关闭的功能建议，以及优先级、目标版本和计划日期。日期与版本是当前计划，不是发布承诺；具体讨论和决定仍记录在原 Issue 中。目前由维护者手动将 Issue 加入看板，尚未出现在看板中不影响反馈有效性。
+
 问题解决后，我们会记录结论、临时解决办法或相关发布版本，再关闭 Issue。常见解决办法会整理进 FAQ。响应时间视情况而定，不会仅因长时间无人回复而自动关闭问题。
 
 ## 涉及私人信息的问题怎么办？

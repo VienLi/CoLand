@@ -51,6 +51,8 @@ English and Chinese are both welcome. Keep unrelated topics in separate issues. 
 | `status:needs-info` | More information is needed |
 | `status:in-progress` | The team is working on the issue |
 
+The public [Feedback & Roadmap board](https://github.com/users/VienLi/projects/2) tracks five stages: Triage, Needs info, Planned, In progress, and Closed. Its **Features** view shows open feature requests alongside priority, target version, and planning dates. Dates and versions are estimates, not release commitments; details and decisions remain in the original issue. Maintainers currently add issues to the board manually, so an issue that is not yet on the board is still a valid report.
+
 We record the outcome, workaround, or relevant release before closing a resolved issue. Common solutions may become FAQ entries. Response times vary; inactivity alone does not automatically close an issue.
 
 ## What if my question involves private information?

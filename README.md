@@ -29,7 +29,7 @@ This is CoLand's public community home. Use it to report bugs, suggest improveme
 
 Before opening an issue, check the [FAQ](FAQ.md) and [existing issues](https://github.com/VienLi/CoLand/issues). You can write in **English or Chinese**. For help getting something working, [ask a usage question](https://github.com/VienLi/CoLand/issues/new?template=usage-question.yml).
 
-We use issues to clarify reports, share progress, and record solutions or the release that addresses a problem. Common answers are added to the FAQ. Account, billing, and other matters requiring private information should go to [support@coland.ai](mailto:support@coland.ai).
+We use issues to clarify reports, share progress, and record solutions or the release that addresses a problem. Follow priorities, feature plans, and progress on the public [Feedback & Roadmap board](https://github.com/users/VienLi/projects/2). Planned dates and versions may change. Common answers are added to the FAQ. Account, billing, and other matters requiring private information should go to [support@coland.ai](mailto:support@coland.ai).
 
 ## Download and updates
 

@@ -27,4 +27,10 @@ Only contribute content you are entitled to share. Do not include private projec
 
 ## How maintainers handle issues
 
-New reports receive a type label and `status:triage`. After review, replace that status with `status:needs-info` or `status:in-progress` when appropriate; keep at most one status label at a time. Reply with findings and next steps, link duplicates to the existing discussion, and record the solution or relevant release before closing a resolved issue. Remove active status labels on closure. Common answers belong in both FAQ editions. We do not promise fixed response times or close issues automatically for inactivity.
+New reports receive a type label and `status:triage`. During review, add the issue to [CoLand · Feedback & Roadmap](https://github.com/users/VienLi/projects/2) using the issue's **Projects** sidebar. Repository-wide automatic intake is not enabled.
+
+Use the board's **Status** for the full workflow: Triage → Planned → In progress → Closed, with Needs info while awaiting clarification. Set the assignee and priority after review; fill in a target version and dates only when there is an actual plan. Use the **Features** view for feature scheduling. These plans may change.
+
+Keep issue labels consistent with the board: use `status:triage`, `status:needs-info`, or `status:in-progress` for their matching stages, and remove these status labels when an issue is Planned or Closed. Keep at most one status label at a time; retain the feedback type label. Reply with findings and next steps, link duplicates to the existing discussion, and record the solution, relevant release, or other closure reason before closing an issue or moving it to Closed. GitHub's enabled auto-close workflow can close an issue when its card moves to Closed.
+
+Common answers belong in both FAQ editions. We do not promise fixed response times or close issues automatically for inactivity.

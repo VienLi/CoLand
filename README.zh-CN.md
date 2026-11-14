@@ -29,7 +29,7 @@ CoLand Desktop 本机可接入 **OpenClaw、Codex、Claude Code 和 Hermes Agent
 
 提交前，可以先查阅[常见问题](FAQ.zh-CN.md)和[已有 Issues](https://github.com/VienLi/CoLand/issues)。欢迎使用**中文或英文**交流。需要使用上的帮助时，可以[提交使用求助](https://github.com/VienLi/CoLand/issues/new?template=usage-question.yml)。
 
-我们会在 Issue 中确认问题、补充信息、更新进展，并记录解决办法或修复对应的版本。常见解答会整理进 FAQ。账号、账单以及需要提供私人信息的问题，请通过 [support@coland.ai](mailto:support@coland.ai) 联系我们。
+我们会在 Issue 中确认问题、补充信息、更新进展，并记录解决办法或修复对应的版本。可以通过公开的[反馈与排期看板](https://github.com/users/VienLi/projects/2)查看优先级、功能安排和处理进度；计划中的日期与版本可能调整。常见解答会整理进 FAQ。账号、账单以及需要提供私人信息的问题，请通过 [support@coland.ai](mailto:support@coland.ai) 联系我们。
 
 ## 下载与更新
 
