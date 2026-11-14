@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: FAQ / 常见问题
+    url: https://github.com/VienLi/CoLand/blob/main/FAQ.md
+    about: Read common answers in English or Chinese. / 查看中英文常见问题解答。
+  - name: Private support / 私密支持
+    url: mailto:support@coland.ai
+    about: Account, billing, security concerns, or private details. / 账号、账单、安全问题或需要私人材料的情况。

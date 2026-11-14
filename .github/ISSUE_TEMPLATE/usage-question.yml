@@ -1,0 +1,53 @@
+name: Usage question / 使用求助
+description: Get help using CoLand in your workflow. / 获取 CoLand 使用上的帮助。
+title: "[Question]: "
+labels: ["question", "status:triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        You can write in English or Chinese. / 可以使用中文或英文。
+        Start with the [FAQ](https://github.com/VienLi/CoLand/blob/main/FAQ.md) / [常见问题](https://github.com/VienLi/CoLand/blob/main/FAQ.zh-CN.md).
+        Issues and attachments are public. Remove credentials and private content. For account, billing, security concerns, or private details, email support@coland.ai.
+        Issue 和附件是公开的，请移除凭证及私人内容。账号、账单、安全问题或需要私人材料的情况，请联系 support@coland.ai。
+  - type: checkboxes
+    id: existing-answers
+    attributes:
+      label: Existing answers / 已有解答
+      options:
+        - label: I checked the FAQ and searched existing issues. / 我已查看 FAQ 并搜索已有 Issue。
+          required: true
+  - type: textarea
+    id: goal
+    attributes:
+      label: What are you trying to do? / 想完成什么操作？
+    validations:
+      required: true
+  - type: textarea
+    id: question
+    attributes:
+      label: Where are you stuck? / 遇到了什么问题？
+      description: Include any relevant error message, without private data. / 可以提供相关错误提示，请移除私人信息。
+    validations:
+      required: true
+  - type: textarea
+    id: attempted-solutions
+    attributes:
+      label: What have you tried? / 已经尝试过哪些方法？
+      description: Tell us what happened, or say if you have not tried anything yet. / 说明尝试后的结果；尚未尝试也可以直接说明。
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Version and environment / 版本与环境
+      description: CoLand version, OS, and relevant platform or Agent. For the website, include your browser. / CoLand 版本、系统、相关平台或 Agent；官网问题请补充浏览器。
+    validations:
+      required: true
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional context / 补充信息
+      description: Optional screenshots or redacted logs. / 选填，可附截图或脱敏日志。
+    validations:
+      required: false

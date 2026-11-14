@@ -1,0 +1,51 @@
+<!-- Layout and animation template: Dashmotion 2.2.4
+MIT License
+
+Copyright (c) 2026 Mars (csthink)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+-->
+<svg id="feedback-routing-diagram" xmlns="http://www.w3.org/2000/svg" width="420" height="426" viewBox="0 0 420 426" role="img" aria-roledescription="流程对照图" aria-labelledby="feedback-routing-title" aria-describedby="feedback-routing-desc">
+  <title id="feedback-routing-title">减少步骤，让注意力留在代码里</title>
+  <desc id="feedback-routing-desc">左侧原流程有五步：发现需要修改的代码、离开 PR 找对话、描述位置与要求、返回 PR 找回位置、继续阅读。右侧只有两步：在代码旁写评语、CoLand 自动投递。右侧不再追加执行和验收步骤，强调人无需离开 PR。</desc>
+  <rect width="420" height="426" rx="12" fill="#fafaf7"/>
+  <style>@media(prefers-reduced-motion:reduce){#feedback-routing-diagram .dot{display:none}}</style>
+  <defs>
+    <marker id="feedback-routing-manual" viewBox="0 0 10 10" markerWidth="5.5" markerHeight="5.5" refX="8" refY="5" orient="auto"><path d="M2 1L8 5L2 9" fill="none" stroke="#ad6957" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></marker>
+    <marker id="feedback-routing-linked" viewBox="0 0 10 10" markerWidth="5.5" markerHeight="5.5" refX="8" refY="5" orient="auto"><path d="M2 1L8 5L2 9" fill="none" stroke="#64876c" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></marker>
+  </defs>
+  <g font-family="system-ui, -apple-system, 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">
+    <text x="106" y="29" font-size="18" font-weight="600" fill="#8b5c4f">原来的流程</text>
+    <text x="314" y="29" font-size="18" font-weight="600" fill="#385744">使用 CoLand</text>
+    <g data-side="old"><rect x="14" y="52" width="184" height="49" rx="9" fill="#f6f1e5" stroke="#c5b48f"/><text x="106" y="82" font-size="16" font-weight="500" fill="#66583d">发现需要修改的代码</text></g>
+    <g data-side="old"><rect x="14" y="128" width="184" height="49" rx="9" fill="#f9eae4" stroke="#b57562"/><text x="106" y="158" font-size="16" font-weight="500" fill="#763e30">离开 PR，找对话</text></g>
+    <g data-side="old"><rect x="14" y="204" width="184" height="49" rx="9" fill="#f6f4ee" stroke="#ad9e85"/><text x="106" y="234" font-size="16" font-weight="500" fill="#4f473c">描述位置与要求</text></g>
+    <g data-side="old"><rect x="14" y="280" width="184" height="49" rx="9" fill="#f9eae4" stroke="#b57562"/><text x="106" y="310" font-size="16" font-weight="500" fill="#763e30">返回 PR，找回位置</text></g>
+    <g data-side="old"><rect x="14" y="356" width="184" height="49" rx="9" fill="#f6f1e5" stroke="#c5b48f"/><text x="106" y="386" font-size="16" font-weight="500" fill="#66583d">继续阅读</text></g>
+    <g data-side="new"><rect x="222" y="52" width="184" height="49" rx="9" fill="#edf4ec" stroke="#84a38b"/><text x="314" y="82" font-size="16" font-weight="600" fill="#385744">在代码旁写评语</text></g>
+    <g data-side="new"><rect x="222" y="128" width="184" height="49" rx="9" fill="#edf4ec" stroke="#84a38b"/><text x="314" y="158" font-size="16" font-weight="600" fill="#385744">CoLand 自动投递</text></g>
+    <text x="314" y="233" font-size="18" font-weight="600" fill="#52775e">始终留在 PR</text>
+    <text x="314" y="261" font-size="17" fill="#52775e">阅读不中断</text>
+  </g>
+  <path class="flow" d="M106 103C101 112 101 117 106 125" fill="none" stroke="#ad6957" stroke-width="1.7" marker-end="url(#feedback-routing-manual)"/>
+  <path class="flow" d="M106 179C101 188 101 193 106 201" fill="none" stroke="#ad6957" stroke-width="1.7" marker-end="url(#feedback-routing-manual)"/>
+  <path class="flow" d="M106 255C101 264 101 269 106 277" fill="none" stroke="#ad6957" stroke-width="1.7" marker-end="url(#feedback-routing-manual)"/>
+  <path class="flow" d="M106 331C101 340 101 345 106 353" fill="none" stroke="#ad6957" stroke-width="1.7" marker-end="url(#feedback-routing-manual)"/>
+  <path class="flow" d="M314 103C319 112 319 117 314 125" fill="none" stroke="#64876c" stroke-width="1.7" marker-end="url(#feedback-routing-linked)"/>
+</svg>

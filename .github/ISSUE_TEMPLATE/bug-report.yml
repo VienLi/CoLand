@@ -1,0 +1,69 @@
+name: Bug report / 问题反馈
+description: Report something that is not working as expected. / 反馈未按预期工作的功能。
+title: "[Bug]: "
+labels: ["bug", "status:triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        You can write in English or Chinese. / 可以使用中文或英文。
+        Please check the [FAQ](https://github.com/VienLi/CoLand/blob/main/FAQ.md) / [常见问题](https://github.com/VienLi/CoLand/blob/main/FAQ.zh-CN.md) first.
+        Issues and attachments are public. Remove credentials and private content from logs and screenshots. For account, billing, security concerns, or private details, email support@coland.ai.
+        Issue 和附件是公开的，请移除日志、截图中的凭证及私人内容。账号、账单、安全问题或需要私人材料的情况，请联系 support@coland.ai。
+  - type: checkboxes
+    id: existing-issues
+    attributes:
+      label: Existing reports / 已有反馈
+      options:
+        - label: I searched existing issues, including closed ones. / 我已搜索已有问题，包括已关闭的 Issue。
+          required: true
+  - type: input
+    id: affected-feature
+    attributes:
+      label: Product or feature / 涉及的产品或功能
+      placeholder: "e.g. Desktop — GitHub connection / 例如：Desktop 的 GitHub 连接"
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: CoLand version / CoLand 版本
+      description: Copy the version from the app; for the website, enter Website. / 请填写客户端中的完整版本号；官网问题填写 Website。
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Environment / 系统环境
+      description: OS version, chip architecture, relevant Agent version; browser for website issues. / 系统版本、芯片架构、相关 Agent 版本；官网问题请补充浏览器。
+      placeholder: "macOS 15, Apple Silicon; Agent and version / Agent 名称及版本"
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to reproduce / 复现步骤
+      description: What did you do before the problem appeared? If it is intermittent, say so. / 问题出现前做了什么？如果偶发，请说明。
+      placeholder: "1. …\n2. …\n3. …"
+    validations:
+      required: true
+  - type: textarea
+    id: expected-result
+    attributes:
+      label: Expected result / 预期结果
+    validations:
+      required: true
+  - type: textarea
+    id: actual-result
+    attributes:
+      label: Actual result / 实际结果
+      description: Include the error message and approximate time if relevant. / 如有错误提示，请提供原文和大致发生时间。
+    validations:
+      required: true
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Screenshots or redacted logs / 截图或脱敏日志
+      description: Optional. Check for private information before attaching anything. / 选填，上传前请检查是否含有私人信息。
+    validations:
+      required: false
