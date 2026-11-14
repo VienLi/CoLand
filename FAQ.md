@@ -29,7 +29,7 @@ Start with the point where progress stopped:
 1. Confirm that Desktop is online and the relevant connection is ready.
 2. Check platform authorization and whether the intended repository or document is connected. Signing in to CoLand with GitHub does not by itself authorize repositories.
 3. Confirm that the work is associated with the intended Agent session and that this session is still accessible on the connected machine.
-4. Check the feedback record and the Agent's own session. Receiving feedback, executing a task, and updating the PR or document are separate steps. The Agent also needs permission to perform the requested change.
+4. Check Event Log in CoLand and the original agent conversation. Receiving feedback, executing a task, and updating the PR or document are separate steps. The Agent also needs permission to perform the requested change.
 5. If the result is uncertain, inspect the PR or document and the original session before retrying. Preserve the records so you can tell whether the work has already happened.
 
 If you still need help, [open a usage question](https://github.com/VienLi/CoLand/issues/new?template=usage-question.yml) with your version, environment, steps, and any relevant error message. Use email if the explanation requires private material.

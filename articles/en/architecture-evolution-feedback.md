@@ -2,7 +2,7 @@
 
 English · [简体中文](../zh-CN/architecture-evolution-feedback.md) · [Article index](../README.md)
 
-> CoLand’s current focus is to reduce feedback forwarding and repeated context switches, and organize scattered platforms, devices, and agents.
+> CoLand’s current focus is to reduce manual feedback forwarding and repeated context switches, and organize scattered platforms, devices, and agents.
 
 Author: CoLand Team\
 First published: 2026-11-14 · Source updated: 2026-11-14 · Synced: 2026-11-14\
@@ -155,7 +155,7 @@ Collaboration at work and reading, learning, and notifications outside it all dr
 
 ## Make collaboration work, then build on the judgments it leaves behind
 
-At this stage, we start by reducing feedback forwarding and repeated switching: leave instructions beside the result, remove the need for one person to relay team discussions, and organize scattered platforms, devices, and agents. Each approach reduces coordination effort and helps reading and thinking stay continuous.
+At this stage, we start by reducing manual feedback forwarding and repeated switching: leave instructions beside the result, remove the need for one person to relay team discussions, and organize scattered platforms, devices, and agents. Each approach reduces coordination effort and helps reading and thinking stay continuous.
 
 Reading, learning, and notifications outside work also compete for attention. The Event Network will extend our work in that direction. But after collecting the information, deciding what matters, what existing experience can handle, and what requires a fresh judgment will still need agents that understand us better.
 
