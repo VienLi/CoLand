@@ -21,7 +21,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 -->
-<svg id="decision-review-diagram" width="420" viewBox="0 0 420 449" role="img" aria-roledescription="架构示意图" aria-labelledby="decision-review-title" aria-describedby="decision-review-desc" xmlns="http://www.w3.org/2000/svg" height="449" data-duration="10.9">
+<svg id="decision-review-diagram" width="420" viewBox="0 0 420 449" role="img" aria-roledescription="architecture diagram" aria-labelledby="decision-review-title" aria-describedby="decision-review-desc" xmlns="http://www.w3.org/2000/svg" height="449" data-duration="10.9">
   <title id="decision-review-title">Who reviews the decision agent?</title>
   <desc id="decision-review-desc">A design experiment. A decision agent assigns code and document work and records review reasons on the deliverable. The executor revises it for another review. A person can correct the criteria in the comments for use in the next round.</desc>
   <rect x="0" y="0" width="420" height="449" rx="12" fill="#fafaf7" />
