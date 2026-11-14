@@ -13,7 +13,7 @@ Current capabilities and future ideas are described in the context of the origin
 
 ![A person and their digital counterpart review experience they control, with a portable notebook and key representing personal assets.](../../assets/articles/decision-assets-v1.webp)
 
-The previous article described CoLand’s current work: reducing feedback forwarding and organizing relationships among sources, deliverables, devices, and agents. This removes some coordination steps, but people still need to judge whether a task is done correctly or a proposed change is appropriate.\
+The previous article described CoLand’s current work: reducing manual feedback forwarding and organizing relationships among sources, deliverables, devices, and agents. This removes some coordination steps, but people still need to judge whether a task is done correctly or a proposed change is appropriate.\
 When those judgments recur, another question appears: **can requirements a person has explained many times become a basis for future decisions?**
 
 This is our next direction. Building on events and their relationships, we plan to bring personal and team experience into task assignment, result review, and everyday judgment.\
@@ -37,7 +37,7 @@ It may begin as rules, examples, and review records. As validation progresses, w
 
 ## Make accumulated experience an asset of your own
 
-When discussing handing experience to AI, “distillation” is not always reassuring. Colleagues have expressed a concern we understand: if a system learns their methods and judgments, will it replace their value within the organization?\
+When we talk about sharing knowledge and experience with AI, “distillation” is not always reassuring. Colleagues have expressed a concern we understand: if a system learns their methods and judgments, will it replace their value within the organization?\
 That concern is understandable when the accumulated knowledge remains only with a company, model service, or agent platform and the individual cannot continue to control and use it. We believe a crucial question is who ultimately owns this experience and whom it serves.
 
 Model products already build a long-term understanding of users. [ChatGPT memory](https://openai.com/index/memory-and-new-controls-for-chatgpt/) draws on prior interactions for personalization, and [Claude offers memory import and export](https://support.claude.com/en/articles/12123587-import-and-export-your-memory-from-claude).\

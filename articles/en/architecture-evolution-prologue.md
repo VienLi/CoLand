@@ -21,7 +21,7 @@ This opening article sets out assumptions about November 2027: what might change
 
 ## The most capable models will cost more
 
-In November 2025, Anthropic released Opus 4.5 at standard API prices of $5 per million input tokens and $25 per million output tokens. In November 2026, it introduced Fable 5.2 for more demanding tasks, priced at $8 and $40 respectively. On the same billing units, both input and output prices rose by 60% between these frontier offerings.\
+In November 2025, Anthropic released Opus 4.5 at standard API prices of $5 per million input tokens and $25 per million output tokens. In November 2026, it introduced Fable 5.2 for more demanding tasks, priced at $8 and $40 respectively. Comparing the same billing units, both input and output prices rose by 60% between these frontier offerings.\
 At the same time, Fable 5.2 costs less than the preceding 5.1 generation in its product line. Vendors are reducing the cost of established capabilities while setting new price tiers for greater capability. [Opus 4.5 announcement](https://www.anthropic.com/news/claude-opus-4-5) · [Fable 5.2 pricing and evaluations](https://www.anthropic.com/claude-fable-and-mythos-5-2)
 
 The infrastructure investment behind these capabilities is also growing quickly. Anthropic reported compute and infrastructure spending of $18.808 billion in the first nine months of 2026, compared with $4.381 billion a year earlier. In its fiscal fourth-quarter 2026 remarks, Micron reported that DRAM prices rose nearly 20% sequentially and anticipated tighter memory and storage supply in 2027 and 2028. Larger models, longer contexts, and greater concurrency also increase memory requirements. [Anthropic registration filing](https://www.sec.gov/Archives/edgar/data/2130357/000162828026072484/anthropicpbc-sx1ax2.htm) · [Micron earnings remarks](https://s25.q4cdn.com/621799436/files/doc_financials/2026/q4/Q4-FY26-Prepared-Remarks.pdf)
@@ -35,7 +35,7 @@ As these models run longer and handle more work in parallel, users will look mor
 
 ![Two capabilities, two cost trends](../../assets/diagrams/en/model-cost-outlook.svg)
 
-## Demand for private deployment will extend from enterprises to heavy individual users
+## Demand for private deployment will extend from enterprises to individual power users
 
 Enterprises have long needed private deployments. Customer information, internal knowledge, business processes, accumulated experience, and judgment criteria are assets they want to control.\
 They also need to protect customer data and business privacy. When using an external model service, the choice depends on which data can leave their environment, where it is processed and stored, and who can access it.\
@@ -43,7 +43,7 @@ These concerns give enterprises reasons to keep some data and processing in thei
 
 Open-weight models are lowering the deployment barrier. For example, gpt-oss-20b can run on a device with 16 GB of memory. A decision to self-host can compare the total cost of similar tasks, including hardware, maintenance, and actual usage. [Open-weight model requirements](https://openai.com/index/introducing-gpt-oss/)
 
-We also see some heavy individual users building their own AI work environments. Starting with a dedicated device for OpenClaw, they may add phones, hardware to control mobile devices, spare computers, and NAS storage, gradually expanding their tools, components, and devices.\
+We also see some individual power users building their own AI work environments. Starting with a dedicated device for OpenClaw, they may add phones, hardware to control mobile devices, spare computers, and NAS storage, gradually expanding their tools, components, and devices.\
 Software foundations for this already exist. OpenClaw supports macOS, iOS, Android, and other devices as nodes, allowing agents to use the capabilities of different devices. [OpenClaw device nodes](https://docs.openclaw.ai/nodes)
 
 Local compute options are expanding too. NVIDIA DGX Spark offers 128 GB of unified memory and supports directly connecting two units. Mac Studio offers 256 GB and 512 GB unified-memory configurations. Individuals can build local model environments with this hardware and combine them with storage, mobile devices, and remote services. [DGX Spark](https://www.nvidia.com/en-us/products/workstations/dgx-spark/) · [Mac Studio specifications](https://www.apple.com/mac-studio/specs/)\
@@ -57,7 +57,7 @@ Organizing that environment becomes a new problem: helping agents find the right
 
 Private deployment can begin with part of the work. Knowledge and rules stay under the user’s control; approved context can go to a remote frontier model for complex decisions. Once a plan is clear, a local model can handle execution suited to its capabilities. Microsoft’s developer documentation also describes combining local and cloud AI as a deployment approach. [Microsoft on hybrid deployment](https://learn.microsoft.com/en-us/windows/ai/cloud-ai)
 
-**We expect demand for private deployment from both enterprises and heavy individual users, with combinations of local and remote models becoming more common.**\
+**We expect demand for private deployment from both enterprises and individual power users, with combinations of local and remote models becoming more common.**\
 Controlling work materials and the agent environment also creates a foundation for changing models, adjusting costs, and reallocating tasks later.
 
 ## People are the bottleneck in parallel work with multiple agents

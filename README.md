@@ -4,19 +4,19 @@
 
 # CoLand
 
-**Bring feedback from your team's collaboration tools back to the Agent session behind the work.**
+**Bring feedback from your team's collaboration tools back to the agent conversation behind the work.**
 
 English · [简体中文](README.zh-CN.md)
 
 [Download](https://www.coland.ai/#download) · [Report a bug](https://github.com/VienLi/CoLand/issues/new?template=bug-report.yml) · [Suggest a feature](https://github.com/VienLi/CoLand/issues/new?template=feature-request.yml) · [FAQ](FAQ.md) · [Articles](articles/README.md)
 
-CoLand connects the places where teams review work with the Agents that help create it. When a colleague comments on a pull request or a document, that feedback can return to the original Agent session with the context needed to continue the work—saving you from copying comments between tools and explaining them again.
+CoLand connects the places where teams review work with the Agents that help create it. When a colleague comments on a pull request or a document, that feedback can return to the original agent conversation with the context needed to continue the work—saving you from copying comments between tools and explaining them again.
 
 ## Where CoLand helps
 
 | In your team's workflow | With CoLand |
 | --- | --- |
-| A reviewer spots an issue in a pull request. | The feedback returns to the Agent session responsible for the code. The team can review the resulting changes in the same PR. |
+| A reviewer spots an issue in a pull request. | The feedback returns to the agent conversation responsible for the code. The team can review the resulting changes in the same PR. |
 | Several colleagues leave comments on a document. | Feedback reaches the session behind the document, reducing the work of collecting and relaying comments. People continue reviewing the shared document. |
 
 CoLand Desktop supports local **OpenClaw, Codex, Claude Code, and Hermes Agent**, with collaboration integrations for **GitHub, Gitee, GitLab, Feishu, Lark, and Notion**. Check each platform's authorization scope and readiness in the client. The original session must remain accessible, and the Agent acts within its existing permissions; your team still reviews the results and decides what to accept.
@@ -49,12 +49,12 @@ These four articles are also available in Chinese. Read the [article index](arti
 
 - [About CoLand](articles/en/about-coland.md) — one founder, a team of Agents, and the everyday work that led to CoLand.
 - [Product Notes—Judgments About the Future](articles/en/architecture-evolution-prologue.md) — the assumptions guiding CoLand's long-term direction.
-- [Product Notes—Giving People Their Attention Back](articles/en/architecture-evolution-feedback.md) — reduce feedback forwarding and organize scattered tools, devices, and Agents.
+- [Product Notes—Giving People Their Attention Back](articles/en/architecture-evolution-feedback.md) — reduce manual feedback forwarding and organize scattered tools, devices, and Agents.
 - [Product Notes—Decisions Are the Most Important Asset](articles/en/architecture-evolution-decisions.md) — our next-stage thinking on decision Agents and experience that stays under your control.
 
 ## Team and community
 
-CoLand is a small team practicing the One Person Company model: one founder working with more than a dozen Agents on research, design, development, and day-to-day operations. We build from the collaboration problems we encounter ourselves and share what we learn along the way.
+CoLand is a small team exploring a one-person company model: one founder working with more than a dozen Agents on research, design, development, and day-to-day operations. We build from the collaboration problems we encounter ourselves and share what we learn along the way.
 
 | Find us | Link |
 | --- | --- |

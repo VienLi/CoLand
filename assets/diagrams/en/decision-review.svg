@@ -104,7 +104,7 @@ SOFTWARE.
     <rect x="128" y="264" width="162" height="56" rx="8" fill="#fff" data-grp="" />
     <rect x="128" y="264" width="162" height="56" rx="8" fill="#eef1f5" stroke="#767f90" stroke-width="1.15" data-grp="" />
     <text x="209" y="287" fill="#292e29" font-size="15" font-weight="600">Agent review</text>
-    <text x="209" y="310" fill="#4e594f" font-size="12">Explain review reasons</text>
+    <text x="209" y="310" fill="#4e594f" font-size="12">Explain requested changes</text>
     <rect x="34" y="346" width="148" height="56" rx="8" fill="#fff" data-grp="" />
     <rect x="34" y="346" width="148" height="56" rx="8" fill="#edf4ec" stroke="#62816a" stroke-width="1.15" data-grp="" />
     <text x="108" y="369" fill="#292e29" font-size="15" font-weight="600">Agent revises</text>

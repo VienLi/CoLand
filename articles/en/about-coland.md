@@ -2,7 +2,7 @@
 
 English · [简体中文](../zh-CN/about-coland.md) · [Article index](../README.md)
 
-> Join one person and a dozen or so agents as we explore new ways of working together. Get to know the CoLand team, the product’s original vision, and our ideas on collaboration, experience accumulation, and data ownership.
+> Join one person and a dozen or so agents as we explore new ways of working together. Get to know the CoLand team, the product’s original vision, and our ideas on collaboration, building shared knowledge and experience, and data ownership.
 
 Author: CoLand Team\
 First published: 2026-11-01 · Source updated: 2026-11-01 · Synced: 2026-11-14\
@@ -13,15 +13,15 @@ Current capabilities and future ideas are described in the context of the origin
 
 ![A group photo of the CoLand founder and Agent partners, including new members such as Monkey Brother, God of Wealth, Cat Manager, Ah Zhu, Chameleon, Little Seal, and Little Raccoon.](../../assets/articles/team-portrait-v1.webp)
 
-CoLand is a small team practicing the “One Person Company” model. Today, the team consists of me and more than a dozen Agents handling different kinds of work.
+CoLand is a small team exploring a one-person company model. Today, the team consists of me and more than a dozen Agents handling different kinds of work.
 
 Starting in March 2026, as OpenClaw garnered increasing attention, I began seriously experimenting with a new way of working: involving the Agent more deeply in daily tasks, collaborating with people to complete the entire process—from ideation, research, and development to post-launch continuous improvement.
 
 During that time, almost every time OpenClaw released a major update, I would download and install it, then try it out in my own work. We also gradually set up agents responsible for different tasks: some organized materials, some researched the market, some designed solutions and wrote code, and others handled deployment and data analysis.
 
-CoLand’s products have grown out of these daily collaborative interactions.
+CoLand grew out of this daily work with agents.
 
-## We’ve also experienced the phenomenon where “the more agents there are, the busier people get.”
+## More agents made me busier
 
 At first, I assigned tasks to different agents based on the roles I was familiar with from my previous job. The division of labor seemed comprehensive, but once it was actually up and running, I was still the busiest one.
 
@@ -53,7 +53,7 @@ These differences may stem from a person’s past experiences, their standards f
 
 We believe these things are worth carefully building up and should remain in the hands of their owners.
 
-Therefore, we prioritize the local Agent and users’ control over context, credentials, and collaboration data. Currently, the CoLand connection service does not read or upload the Agent’s historical conversations, nor does it use collaboration content for model training. To process feedback submissions, the service will still handle necessary events and source information and encrypt and temporarily store related feedback; these boundaries should be clearly stated.
+Therefore, we prioritize the local Agent and users’ control over context, credentials, and collaboration data. Currently, the CoLand connection service does not read or upload the Agent’s historical conversations, nor does it use collaboration content for model training. To process feedback delivery, the service will still handle necessary events and source information and encrypt and temporarily store related feedback; these boundaries should be clearly stated.
 
 In the future, if we provide tools to help teams organize their experiences and accumulate data, users should explicitly decide whether to enable them, where to store the data, and how it may be used.
 
@@ -67,4 +67,4 @@ We’ll also continue to share insights from this small team’s experience, inc
 
 CoLand is still in its very early stages. We want to start with the problems we encounter every day and build tools that truly help, making the process of working with the agent smoother and ensuring that the experience gained on the job remains in the users’ own hands.
 
-To learn more about this experiment, read [Three Iterations of Our Collaboration with the Agent](https://www.coland.ai/articles/agent-collaboration-evolution); for the reasoning behind our product choices, read [Why We Insist on Putting Work Experience and Context in the User’s Hands](https://www.coland.ai/articles/your-context-your-control).
+To learn more about this experiment, read [Three iterations of how we work with agents](https://www.coland.ai/articles/agent-collaboration-evolution); for the reasoning behind our product choices, read [Why users should control their knowledge and context](https://www.coland.ai/articles/your-context-your-control).
