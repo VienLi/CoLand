@@ -27,7 +27,9 @@ Only contribute content you are entitled to share. Do not include private projec
 
 ## How maintainers handle issues
 
-New reports receive a type label and `status:triage`. During review, add the issue to [CoLand · Feedback & Roadmap](https://github.com/users/VienLi/projects/2) using the issue's **Projects** sidebar. Repository-wide automatic intake is not enabled.
+Reports submitted through the forms receive a type label and `status:triage`. New issues are automatically added to [CoLand · Feedback & Roadmap](https://github.com/users/VienLi/projects/2) with the initial status **Triage / 待确认**.
+
+Keep these two built-in project workflows enabled: **Auto-add to project**, targeting `VienLi/CoLand` with the filter `is:issue is:open`; and **Item added to project**, setting **Status** to **Triage / 待确认**. Enabling auto-add does not immediately import existing issues. If an older report is missing from the board, add it using the issue's **Projects** sidebar, then set its status to reflect its current progress.
 
 Use the board's **Status** for the full workflow: Triage → Planned → In progress → Closed, with Needs info while awaiting clarification. Set the assignee and priority after review; fill in a target version and dates only when there is an actual plan. Use the **Features** view for feature scheduling. These plans may change.
 

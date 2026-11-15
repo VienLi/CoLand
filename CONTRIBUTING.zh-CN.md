@@ -27,7 +27,9 @@
 
 ## 维护者怎样处理 Issue
 
-新反馈带有类型标签和 `status:triage`。受理时，通过 Issue 右侧的 **Projects** 将其加入 [CoLand · Feedback & Roadmap](https://github.com/users/VienLi/projects/2)。目前尚未开启整个仓库的自动收录。
+通过表单提交的反馈带有类型标签和 `status:triage`。新提交的 Issue 会自动加入 [CoLand · Feedback & Roadmap](https://github.com/users/VienLi/projects/2)，初始状态为 **Triage / 待确认**。
+
+保持两条看板内置工作流启用：**Auto-add to project** 的仓库为 `VienLi/CoLand`、筛选条件为 `is:issue is:open`；**Item added to project** 将 **Status** 设为 **Triage / 待确认**。开启自动收录不会立即导入已有 Issue；如果历史反馈未进入看板，可以通过 Issue 右侧的 **Projects** 补录，再按实际进度调整状态。
 
 使用看板的 **Status** 记录完整流程：待确认 → 已排期 → 处理中 → 已关闭；等待补充信息时移至待补充。评估后设置负责人和优先级，确定安排后再填写目标版本及日期，通过**功能排期**视图查看功能建议的安排。计划可能调整。
 
