@@ -1,48 +1,48 @@
-name: Feature request / 功能建议
-description: Tell us what would make your workflow easier. / 告诉我们怎样改善你的工作流程。
+name: 功能建议 / Feature request
+description: 告诉我们怎样改善你的工作流程。 / Tell us what would make your workflow easier.
 title: "[Feature]: "
 labels: ["enhancement", "status:triage"]
 body:
   - type: markdown
     attributes:
       value: |
-        You can write in English or Chinese. / 可以使用中文或英文。
-        Describe the work you want to do and the difficulty you face. This helps us understand the need behind your suggestion.
+        请直接使用中文或英文填写，无需翻译。 / Write in Chinese or English; no translation is needed.
         请说明你想完成的工作及遇到的困难，帮助我们理解建议背后的需求。
-        This is a public discussion. Send account, billing, or private details to support@coland.ai.
+        Describe the work you want to do and the difficulty you face. This helps us understand the need behind your suggestion.
         这里是公开讨论，请将账号、账单或私人材料发至 support@coland.ai。
+        This is a public discussion. Send account, billing, or private details to support@coland.ai.
   - type: checkboxes
     id: existing-issues
     attributes:
-      label: Existing suggestions / 已有建议
+      label: 已有建议 / Existing suggestions
       options:
-        - label: I searched existing issues for this suggestion. / 我已搜索是否有相同或相关建议。
+        - label: 我已搜索是否有相同或相关建议。 / I searched existing issues for this suggestion.
           required: true
   - type: textarea
     id: use-case
     attributes:
-      label: Your use case / 使用场景
-      description: What are you trying to accomplish, and who is involved? / 你想完成什么工作？有哪些人参与？
+      label: 使用场景 / Your use case
+      description: 你想完成什么工作？有哪些人参与？ / What are you trying to accomplish, and who is involved?
     validations:
       required: true
   - type: textarea
     id: problem
     attributes:
-      label: The difficulty / 遇到的困难
-      description: Explain where the current workflow gets in the way. / 当前流程在哪一步影响了你？
+      label: 遇到的困难 / The difficulty
+      description: 当前流程在哪一步影响了你？ / Explain where the current workflow gets in the way.
     validations:
       required: true
   - type: textarea
     id: proposed-improvement
     attributes:
-      label: Desired improvement / 希望得到的改善
-      description: Describe the outcome; a specific implementation is optional. / 描述希望得到的结果，不必先确定具体实现。
+      label: 希望得到的改善 / Desired improvement
+      description: 描述希望得到的结果，不必先确定具体实现。 / Describe the outcome; a specific implementation is optional.
     validations:
       required: true
   - type: textarea
     id: alternatives
     attributes:
-      label: Alternatives or workarounds / 现有替代办法
-      description: Optional. What do you do today, and what does it cost you in time or effort? / 选填，现在怎样处理？需要额外花费哪些时间或精力？
+      label: 现有替代办法 / Alternatives or workarounds
+      description: 选填，现在怎样处理？需要额外花费哪些时间或精力？ / Optional. What do you do today, and what does it cost you in time or effort?
     validations:
       required: false
